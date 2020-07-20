@@ -1,3 +1,43 @@
-body {
-  background-color: red;
+* {
+  /* justify-content: center; */
+  margin-left: 0.3em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  font-size: 1.5em;
+  display: block;
+}
+.mainInfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#nameYehor {
+  position: relative;
+  /* left: 2em; */
+}
+
+.headerAlignLeft {
+  position: absolute;
+  right: 2em;
+  display: flex;
+}
+
+.menu{
+  margin-top: -2em;
+}
+
+.menu button{
+  font-size: 0.8em;
+  margin: 0.5em;
+}
+
+#learnMoreBtn {
+  position: absolute;
+  right: 5em;
+}
+
+svg {
+  margin-left: 0em;
 }

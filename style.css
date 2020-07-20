@@ -1,13 +1,22 @@
 * {
   /* justify-content: center; */
-  margin-left: 0.3em;
   font-family: 'Roboto', sans-serif;
 }
 
 .header {
   font-size: 1.5em;
+  margin-top: 0.3em;
   display: block;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0px;
+  background-color: white;
 }
+
+.header * {
+  margin-left: 0.3em;
+}
+
 .mainInfo {
   display: flex;
   flex-wrap: wrap;
@@ -31,6 +40,7 @@
 .menu button{
   font-size: 0.8em;
   margin: 0.5em;
+  margin-top: 0.2em;
 }
 
 #learnMoreBtn {
@@ -40,4 +50,23 @@
 
 svg {
   margin-left: 0em;
+}
+
+.avatar {
+  display: flex;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 5em;
+}
+
+.avatar > img {
+  width: 15em;
+  height: auto;
+  border: solid black 3px;
+}
+
+.avatar > p {
+  font-size: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
